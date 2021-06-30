@@ -1,26 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>About</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-  </head>
-  <body>
-    <nav>
-  
-    <a href="index.html" >Home</a>
-  
-    <a href="about.html" >About</a>
-  
-    <a href="blog.html" >Blog</a>
-  
-    <a href="staff.html" >Staff</a>
-  
-</nav>
-
-    <h1 id="zixuan-peng">Zixuan Peng</h1>
-
-<p><img src="https://github.com/jasonpeng17/jasonpeng17.github.io/tree/master/images/zixuan_peng_photos/zixuan_peng_selfie.jpg" alt="Zixuan Peng's Selfie" /></p>
+I"û	<h1 id="zixuan-peng">Zixuan Peng</h1>
 
 <p>I just finished my undergraduate study at UC Santa Barbara with major in Physics and minor in Astrophysics. I am interested in the fields like interstellar medium and galaxy formation and evoluton, but I am also obsessed with using or constructing theoretical simulations to help me understand how universe works in general.</p>
 
@@ -42,6 +20,4 @@
 
 <p><img src="https://github.com/jasonpeng17/jasonpeng17.github.io/tree/master/images/research_figures/2020-2021_senior_thesis/m_star_vs_oh_o3ew.png" alt="O3EW MZR-SFR" /> <img src="https://github.com/jasonpeng17/jasonpeng17.github.io/tree/master/images/research_figures/2020-2021_senior_thesis/m_star_vs_oh.png" alt="CLASSY MZR-SFR" /></p>
 
-
-  </body>
-</html>
+:ET

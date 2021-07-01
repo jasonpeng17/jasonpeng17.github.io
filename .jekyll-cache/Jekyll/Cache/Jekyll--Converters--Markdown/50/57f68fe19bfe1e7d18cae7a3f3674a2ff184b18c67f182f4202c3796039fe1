@@ -1,26 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>BallisLife</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-  </head>
-  <body>
-    <nav>
-  
-    <a href="index.html" >Home</a>
-  
-    <a href="about.html" >About</a>
-  
-    <a href="blog.html" >Blog</a>
-  
-    <a href="staff.html" >Staff</a>
-  
-    <a href="ballislife.html" >BallisLife</a>
-  
-</nav>
-
-    <h1 id="ballislife">BallisLife</h1>
+I"—	<h1 id="ballislife">BallisLife</h1>
 
 <p>Selected photos from my basketball journey (in chronological order):</p>
 
@@ -63,6 +41,4 @@
 
 <p><img src="./assets/images/ballislife_photos/2018_cssa_basketball.jpg" alt="2018-cssa-1" height="40%" width="40%" /></p>
 
-
-  </body>
-</html>
+:ET

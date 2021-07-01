@@ -1,26 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>BallisLife</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-  </head>
-  <body>
-    <nav>
-  
-    <a href="index.html" >Home</a>
-  
-    <a href="about.html" >About</a>
-  
-    <a href="blog.html" >Blog</a>
-  
-    <a href="staff.html" >Staff</a>
-  
-    <a href="ballislife.html" >BallisLife</a>
-  
-</nav>
-
-    <h1 id="ballislife">BallisLife</h1>
+I"—	<h1 id="ballislife">BallisLife</h1>
 
 <p>Selected photos from my basketball journey (in chronological order):</p>
 
@@ -28,7 +6,7 @@
   <li>2016 Shenzhen Middle School Basketball Cup (2nd place)</li>
 </ul>
 
-<p><img src="./assets/images/ballislife_photos/2016_sms_basketball_final.jpg" alt="sms-final1" height="40%" width="40%" /> <img src="./assets/images/ballislife_photos/2016_sms_basketball_final2.jpg" alt="sms-final2" height="45%" width="45%" />
+<p><img src="./assets/images/ballislife_photos/2016_sms_basketball_final.jpg" alt="sms-final1" height="40%" width="40%" /> <img src="./assets/images/ballislife_photos/2016_sms_basketball_final2.jpg" alt="sms-final2" height="60%" width="60%" />
 <img src="./assets/images/ballislife_photos/2016_sms_basketball_group.jpg" alt="sms-group" height="40%" width="40%" /> <img src="./assets/images/ballislife_photos/2016_sms_basketball_team.jpg" alt="sms-team" height="40%" width="40%" /></p>
 
 <ul>
@@ -63,6 +41,4 @@
 
 <p><img src="./assets/images/ballislife_photos/2018_cssa_basketball.jpg" alt="2018-cssa-1" height="40%" width="40%" /></p>
 
-
-  </body>
-</html>
+:ET

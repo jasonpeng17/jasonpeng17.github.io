@@ -4,7 +4,7 @@ title: About
 ---
 # Zixuan Peng
 
-![Zixuan Peng's Selfie](./images/zixuan_peng_photos/zixuan_peng_selfie.jpg){:height="20%" width="20%"}
+![Zixuan Peng's Selfie](./assets/images/zixuan_peng_photos/zixuan_peng_selfie.jpg){:height="20%" width="20%"}
 
 I just finished my undergraduate study at UC Santa Barbara with major in Physics and minor in Astrophysics. I am interested in the fields like interstellar medium and galaxy formation and evoluton, and I am also obsessed with using or constructing theoretical simulations to help me understand how universe works in general. 
 
@@ -16,15 +16,17 @@ I just finished my undergraduate study at UC Santa Barbara with major in Physics
 
 ## Research Summary
 
-For my senior thesis, I measured nebular density, nebular temperature, and oxygen abundance of SDSS emission-line galaxies. These galaxies are the closest local analogs of the high-redshift galaxies in the epoch of reionization that the James Webb Space Telescope will soon discover and study. During the 2020 Summer, I presented my abundance measurement work at [Kavli Institute for Theoretical Physics Undergraduate Physics Research Symposium!](https://www.dropbox.com/s/0pjjjwytxz01xj1/2020%20Undergraduate%20Physics%20Research%20Symposium%20Program-3.pdf?dl=0). Due to limitation of direct-based oxygen abundance, I also used existing data cubes obtained from KCWI Integral field spectroscopy to map out nebular density, nebular temperature, and oxygen abundance spatially in four low-mass galaxies, J0248-0817, J0823+0313, J1044+0353, and J1238+1009 with high emission-line equivalent width. The figure below shows the oxygen abundance map for J0248-0817:
+For my senior thesis, I measured nebular density, nebular temperature, and oxygen abundance of SDSS emission-line galaxies. These galaxies are the closest local analogs of the high-redshift galaxies in the epoch of reionization that the James Webb Space Telescope will soon discover and study. During the 2020 Summer, I presented my abundance measurement work at [Kavli Institute for Theoretical Physics Undergraduate Physics Research Symposium](https://www.dropbox.com/s/0pjjjwytxz01xj1/2020%20Undergraduate%20Physics%20Research%20Symposium%20Program-3.pdf?dl=0). Due to limitation of direct-based oxygen abundance, I also used existing data cubes obtained from KCWI Integral field spectroscopy to map out nebular density, nebular temperature, and oxygen abundance spatially in four low-mass galaxies, J0248-0817, J0823+0313, J1044+0353, and J1238+1009 with high emission-line equivalent width. The figure below shows the oxygen abundance map for J0248-0817:
 
-![J0248-0817 oxygen abundance map](./images/research_figures/2020-2021_senior_thesis/OH_fixed.png){:height="50%" width="50%"}
+![J0248-0817 oxygen abundance map](./assets/images/research_figures/2020-2021_senior_thesis/OH_fixed.png){:height="50%" width="50%"}
 
 Then, I found out their mass-metallicity relation (color-coded by star formation rate) for our starforming galaxies based on the stellar mass and star formation rate that are obtained from the MPA-JHU Catalog and the NASA-Sloan Atlas.
 
-![O3EW MZR-SFR](./images/research_figures/2020-2021_senior_thesis/m_star_vs_oh_o3ew.png){:height="40%" width="40%"} ![CLASSY MZR-SFR](./images/research_figures/2020-2021_senior_thesis/m_star_vs_oh.png){:height="40%" width="40%"}
+![O3EW MZR-SFR](./assets/images/research_figures/2020-2021_senior_thesis/m_star_vs_oh_o3ew.png){:height="40%" width="40%"} ![CLASSY MZR-SFR](./assets/images/research_figures/2020-2021_senior_thesis/m_star_vs_oh.png){:height="40%" width="40%"}
 
-## BallisLife 
+## BallisLife
+
+Since 5th grade in elementary school, I have started to practice basketball with the school's basketball team. I always loved the feeling to handle ball and organize the whole team. It was the main reason that I chose to become a point guard on the court. I never satisfied with my skills, including shooting, passing, defensing, and dribbling, and attempted to find appropriate instructions available online. I also obsessed with competing against players that are better than me (no matter technically or physically). This attitude/personality definitely helps me make progress every year. Basketball not only made me become a better athelete with a tougher mentality and a stronger body, but it also gave me many valuable opportunities to make true, genuine friends. Even though both of my knees have to be suffered from the ACL surgeries (got injured in basketball matches), basketball helped me develop into a more optimistic person. Through these injuries, the most important point I learn is to respect the reality and always push myself to the limit. Even if the result is not satisfactory, the journey is already fasinating enough. Just like Romain Roland said: "There is only one heroism in the world: to see the world as it is, and to love it." Please click the [link](ballislife.html) if you want to know more about my basketball journey. 
 
 ## Contact Info
 

@@ -1,69 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>About</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <style>
-      body {
-        /* background-image: url('../../assets/images/M82_images/heic0604a_2.jpeg'); */
-        background-image: url('https://cdn.spacetelescope.org/archives/images/screen/heic0604a.jpg');
-        background-size: cover;
-        background-position: center;
-        /* background-color: #141e30; */
-        color: #ffffff;
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-        text-align: center;
-        margin: 0 40px; /* Adjust the margin size as needed */
-        padding: 40px; /* Adjust the padding size as needed */
-      }
-      /* Add an overlay */
-      body::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity and color as needed */
-        z-index: -1; /* Ensure the overlay is behind the content */
-      }
-      h1 {
-        font-size: 24px;
-        margin-bottom: 20px;
-      }
-      p {
-        margin-bottom: 10px;
-        line-height: 1.6;  /* This is the line you would add */
-      }
-      .centered-list {
-        text-align: left;
-        list-style-position: inside; /* Changes the bullet point position */
-        display: inline-block;
-        margin: 0 auto;
-      }
-    </style>
-  </head>
-  <body>
-    <nav>
-  
-    <a href="index.html" >Home</a>
-  
-    <a href="blog.html" >Blog</a>
-  
-    <a href="research.html" >Research</a>
-  
-    <a href="zixuan_cv.html" >CV</a>
-  
-    <a href="ballislife.html" >BallisLife</a>
-  
-</nav>
-
-    <div class="content">
-      <!-- <h1>About</h1> -->
-      <div class="centered-list">
-        <h1 id="welcome-to-zixuans-personal-website">Welcome to Zixuan’s Personal Website!</h1>
+I"v<h1 id="welcome-to-zixuans-personal-website">Welcome to Zixuan’s Personal Website!</h1>
 
 <p><img src="./assets/images/zixuan_peng_photos/photo_zixuan.jpg" alt="Zixuan Peng's Selfie" height="30%" width="20%" /></p>
 
@@ -96,8 +31,4 @@
   <li><strong>Email</strong>: <em>zixuanpeng@ucsb.edu</em></li>
 </ul>
 
-
-      </div>
-    </div>
-  </body>
-</html>
+:ET

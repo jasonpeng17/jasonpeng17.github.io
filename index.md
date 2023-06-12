@@ -14,6 +14,8 @@ Zixuan is a second-year Physics PhD student, with an emphasis in Astrophysics, a
 * **Physics B.S.**: *University of California, Santa Barbara* (2017-2021)
 * **High School**: *Shenzhen Middle School* (2014-2017)
 
+Please check my [CV](zixuan_cv.html) for more details.
+
 ## Research Summary
 
 1. [Probing the Dynamics and Metal Content of Galactic Winds Through Absorption and Emission Lines](research.html#esi_galactic_wind)

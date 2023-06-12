@@ -1,0 +1,12 @@
+- name: Home
+  link: index.html
+# - name: About
+#   link: index.html
+- name: Blog
+  link: blog.html
+- name: Research
+  link: research.html
+# - name: Staff
+#   link: staff.html
+- name: BallisLife
+  link: ballislife.html

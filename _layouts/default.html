@@ -1,38 +1,3 @@
-<!-- <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-  </head>
- <body style="text-align: center;">
-    {% include navigation.html %}
-    {{ content }}
-  </body>
-</html> -->
-
-<!-- <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <style>
-      body {
-/*        background-image: url('assets/images/M82_images/heic0604a.png');*/
-        background-size: cover;
-        color: white;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    {% include navigation.html %}
-    {{ content }}
-  </body>
-</html> -->
-
-
 <!doctype html>
 <html>
   <head>
@@ -44,11 +9,25 @@
         /* background-image: url('../../assets/images/M82_images/heic0604a_2.jpeg'); */
         background-image: url('https://cdn.spacetelescope.org/archives/images/screen/heic0604a.jpg');
         background-size: cover;
+        background-position: center;
         /* background-color: #141e30; */
         color: #ffffff;
         font-family: Arial, sans-serif;
         font-size: 16px;
         text-align: center;
+        margin: 0 40px; /* Adjust the margin size as needed */
+        padding: 40px; /* Adjust the padding size as needed */
+      }
+      /* Add an overlay */
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity and color as needed */
+        z-index: -1; /* Ensure the overlay is behind the content */
       }
       h1 {
         font-size: 24px;

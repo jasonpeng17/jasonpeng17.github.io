@@ -10,7 +10,12 @@ nav a:hover { background-color: #ddd; color: black; }
 
 nav a.current { background-color: #4CAF50; color: white; }
 
-a:link { color: #FF0000; /* Red */ }
+/* Roll tab styles */
+.roll-tab { background-color: #f0f0f0; color: #333; padding: 5px 10px; border: none; cursor: pointer; margin-top: 10px; }
+
+.roll-tab:hover { background-color: #ddd; }
+
+a:link { color: #FF0000; /* Green */ }
 
 a:visited { color: #00FF00; /* Green */ }
 

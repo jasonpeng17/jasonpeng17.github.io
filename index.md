@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_left_align
 title: About
 ---
 # Welcome to Zixuan's Personal Website!

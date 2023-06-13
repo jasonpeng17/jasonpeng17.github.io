@@ -2,7 +2,7 @@
 layout: default_left_align
 title: About
 ---
-# Welcome to Zixuan's Personal Website!
+# Welcome to Zixuan Peng (彭子轩)'s Personal Website!
 
 ![Zixuan Peng's Selfie](./assets/images/zixuan_peng_photos/photo_zixuan.jpg){:height="30%" width="20%"}
 
@@ -29,6 +29,8 @@ From the tender age of ten, my heart has been held captive by the rhythm and pul
 ## Contact Info
 
 * **Email**: *zixuanpeng@ucsb.edu*
+
+#### *Background Image Credit: NASA, ESA and the Hubble Heritage Team (STScI/AURA). Acknowledgment: J. Gallagher (University of Wisconsin), M. Mountain (STScI) and P. Puxley (NSF).*
 
 
 

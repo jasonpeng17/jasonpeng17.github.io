@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Erb+2008 Analytical Chemical Evolution Model Note
+title: Erb 2008 Analytical Chemical Evolution Model
 author: the_outsider
 date: 2023-06-13
 ---

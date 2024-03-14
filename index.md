@@ -6,7 +6,7 @@ title: About
 
 ![Zixuan Peng's Selfie](./assets/images/zixuan_peng_photos/photo_zixuan.jpg){:height="30%" width="20%"}
 
-Zixuan is a second-year Physics PhD student, with an emphasis in Astrophysics, at the University of California, Santa Barbara (UCSB). Zixuan received the Physics B.S. with a minor in Astronomy from UCSB in 2021. He is interested in the interface between theoretical and observational work in galaxy formation and evolution. His current work is mainly about the chemical evolution of Extreme-Emission-Line Galaxies, local analogs of high-redshift galaxies during the Epoch of Reionization, and galactic wind. 
+Zixuan is a third-year Physics PhD student, with an emphasis in Astrophysics, at the University of California, Santa Barbara (UCSB). Zixuan received his B.S. in Physics with a minor in Astronomy from UCSB in 2021. He is interested in the interface between theoretical and observational work in galaxy formation and evolution. His current research focuses on the dynamics of galactic winds and the chemical evolution of Extreme-Emission-Line Galaxies, which are local analogs of high-redshift galaxies during the Epoch of Reionization. 
 
 ## Education Background 
 

@@ -3,22 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Research</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
       body {
-        /* background-image: url('../../assets/images/M82_images/heic0604a_2.jpeg'); */
-        background-image: url('https://cdn.spacetelescope.org/archives/images/screen/heic0604a.jpg');
+        background-image: url('https://www.spitzer.caltech.edu/system/avm_images/binaries/2205/huger/sig06-010.jpg?1603794421');
         background-size: cover;
         background-position: center;
-        /* background-color: #141e30; */
         color: #ffffff;
         font-family: Arial, sans-serif;
         font-size: 16px;
-        text-align: center;
-        margin: 0 40px; /* Adjust the margin size as needed */
-        padding: 40px; /* Adjust the padding size as needed */
+        text-align: left;
+        margin: 0;
+        padding: 0;
       }
-      /* Add an overlay */
+
       body::before {
         content: "";
         position: fixed;
@@ -26,22 +24,45 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity and color as needed */
-        z-index: -1; /* Ensure the overlay is behind the content */
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: -1;
       }
-      h1 {
-        font-size: 24px;
-        margin-bottom: 20px;
+
+      .content-wrapper {
+        background-color: black;
+        color: white;
+        margin: 50px auto;
+        padding: 20px;
+        max-width: 1200px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
       }
-      p {
-        margin-bottom: 10px;
-        line-height: 1.6;  /* This is the line you would add */
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
       }
-      .centered-list {
+
+      .left-column, .right-column {
+        flex: 1;
+        min-width: 300px;
         text-align: left;
-        list-style-position: inside; /* Changes the bullet point position */
-        display: inline-block;
-        margin: 0 auto;
+      }
+
+      .contact-info {
+        margin-top: 40px;
+        text-align: center;
+        flex-basis: 100%;
+        border-top: 1px solid #ffffff;
+        padding-top: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
       }
     </style>
   </head>
@@ -60,13 +81,16 @@
   
 </nav>
 
-    <div class="content">
-      <!-- <h1>Research</h1> -->
-      <div class="centered-list">
+    
+    <div class="content-wrapper">
+      <div class="content">
         <h1 id="research-summary">Research Summary</h1>
 
-<h2 id="esi_galactic_wind"><a href="esi_galactic_wind.html">Probing the Dynamics and Metal Content of Galactic Winds Through Absorption and Emission Lines</a></h2>
-<p>Galactic winds, or galaxy-scale outflows of gas, not only shape many observable properties of the galaxy population but also play a crucial role in the evolution of the universe. They are ubiquitously detected in multi-wavelength observations over cosmic time and found driven by different physical sources, such as the core-collapse supernovae, active galactic nuclei, and cosmic rays. Theorists found cosmological models would overproduce stellar mass and star formation rates (SFR) from comic noon to the present without proper treatment of galactic winds. Through these simulations, galactic winds also determine the overall shape and amplitude of the relations between galaxies’ observable properties, such as the mass-metallicity relation (MZR), and regulate the escape of Lyman continuum photons……</p>
+<h2 id="esi_galactic_wind"><a href="esi_galactic_wind.html">Physical Origins of Outflowing Cold Clouds in Local Star-forming Galaxies</a></h2>
+<p>We study the physical origins of outflowing cold clouds in a sample of 14 low-redshift galaxies from the COS Legacy Archive Spectroscopic SurveY (CLASSY) using Keck/ESI data. Outflows are traced by broad (FWHM ~ 260 km/s) and very-broad (VB; FWHM ~ 1000 km/s) velocity components in strong emission lines like [OIII] 5007 and H-alpha……</p>
+
+<h2 id="kcwi_1044_clm_zp"><a href="kcwi_1044_clm_zp.html">Resolving the Mechanical and Radiative Feedback in an Extreme-Emission-Line Dwarf Galaxy</a></h2>
+<p>We present integral field spectroscopy toward and around J1044+0353, a rapidly growing, low-metallicity galaxy that produces extreme [O III] line emission. A new map of the O32 flux ratio reveals a density-bounded ionization cone emerging from the starburst……</p>
 
 <h2 id="kcwi_1044"><a href="kcwi_1044.html">Using KCWI to Explore the Chemical Inhomogeneities and Evolution of an Extreme-Emission-Line Galaxy</a></h2>
 <p>J1044+0353 is considered a local analog of the young galaxies that ionized the intergalactic medium at high-redshift due to its low mass, low metallicity, high specific star formation rate, and strong high-ionization emission lines……</p>
@@ -76,5 +100,7 @@
 
       </div>
     </div>
+    
   </body>
 </html>
+

@@ -2,23 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <title>About</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
       body {
-        /* background-image: url('../../assets/images/M82_images/heic0604a_2.jpeg'); */
-        background-image: url('https://cdn.spacetelescope.org/archives/images/screen/heic0604a.jpg');
+        background-image: url('https://www.spitzer.caltech.edu/system/avm_images/binaries/2205/huger/sig06-010.jpg?1603794421');
         background-size: cover;
-        background-position: center;
-        /* background-color: #141e30; */
+        background-position: center 20px; /* Moves the image 20px down */
         color: #ffffff;
         font-family: Arial, sans-serif;
         font-size: 16px;
         text-align: center;
-        margin: 0 40px; /* Adjust the margin size as needed */
-        padding: 40px; /* Adjust the padding size as needed */
+        margin: 0;
+        padding: 0;
       }
-      /* Add an overlay */
+
       body::before {
         content: "";
         position: fixed;
@@ -26,22 +26,45 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity and color as needed */
-        z-index: -1; /* Ensure the overlay is behind the content */
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: -1;
       }
-      h1 {
-        font-size: 24px;
-        margin-bottom: 20px;
+
+      .content-wrapper {
+        background-color: black;
+        color: white;
+        margin: 50px auto;
+        padding: 20px;
+        max-width: 1200px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
       }
-      p {
-        margin-bottom: 10px;
-        line-height: 1.6;  /* This is the line you would add */
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
       }
-      .centered-list {
+
+      .left-column, .right-column {
+        flex: 1;
+        min-width: 300px;
         text-align: left;
-        list-style-position: inside; /* Changes the bullet point position */
-        display: inline-block;
-        margin: 0 auto;
+      }
+
+      .contact-info {
+        margin-top: 40px;
+        text-align: center;
+        flex-basis: 100%;
+        border-top: 1px solid #ffffff;
+        padding-top: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
       }
     </style>
   </head>
@@ -60,46 +83,69 @@
   
 </nav>
 
-    <div class="content">
-      <!-- <h1>About</h1> -->
-      <div class="centered-list">
-        <h1 id="welcome-to-zixuan-peng-彭子轩s-personal-website">Welcome to Zixuan Peng (彭子轩)’s Personal Website!</h1>
+    
+    <div class="content-wrapper">
+      <div class="content">
+        <h1>Welcome to Zixuan Peng (彭子轩)'s Personal Website!</h1>
+<p><img src="./assets/images/zixuan_peng_photos/photo_zixuan.jpg" alt="Zixuan Peng's Selfie" style="height:30%; width:40%;" /></p>
+<div class="container">
+  <!-- Left Column -->
+  <div class="left-column">
+    <h2>Introduction</h2>
+    <p>Zixuan is a third-year Physics PhD student, with an emphasis in Astrophysics, at the University of California, Santa Barbara (UCSB). Zixuan received his B.S. in Physics with a minor in Astronomy from UCSB in 2021. He is interested in the interface between theoretical and observational work in galaxy formation and evolution. His current research focuses on the dynamics of galactic winds and the chemical evolution of Extreme-Emission-Line Galaxies, which are local analogs of high-redshift galaxies during the Epoch of Reionization.</p>
 
-<p><img src="./assets/images/zixuan_peng_photos/photo_zixuan.jpg" alt="Zixuan Peng's Selfie" height="30%" width="20%" /></p>
+    <h2>Education Background</h2>
+    <ul>
+      <li><strong>Physics Ph.D.</strong>: <em>University of California, Santa Barbara</em> (2021-)</li>
+      <li><strong>Physics B.S.</strong>: <em>University of California, Santa Barbara</em> (2017-2021)</li>
+      <li><strong>High School</strong>: <em>Shenzhen Middle School</em> (2014-2017)</li>
+    </ul>
 
-<p>Zixuan is a second-year Physics PhD student, with an emphasis in Astrophysics, at the University of California, Santa Barbara (UCSB). Zixuan received the Physics B.S. with a minor in Astronomy from UCSB in 2021. He is interested in the interface between theoretical and observational work in galaxy formation and evolution. His current work is mainly about the chemical evolution of Extreme-Emission-Line Galaxies, local analogs of high-redshift galaxies during the Epoch of Reionization, and galactic wind.</p>
+    <p>Please check my <a href="zixuan_cv.html">CV</a> for more details.</p>
 
-<h2 id="education-background">Education Background</h2>
+    <h2>BallisLife</h2>
+    <p>From the tender age of ten, my heart has been held captive by the rhythm and pulse of basketball...</p>
+    <p><a href="ballislife.html">Read more about my journey</a></p>
+  </div>
 
-<ul>
-  <li><strong>Physics Ph.D.</strong>: <em>University of California, Santa Barbara</em> (2021-)</li>
-  <li><strong>Physics B.S.</strong>: <em>University of California, Santa Barbara</em> (2017-2021)</li>
-  <li><strong>High School</strong>: <em>Shenzhen Middle School</em> (2014-2017)</li>
-</ul>
+  <!-- Right Column -->
+  <div class="right-column">
+    <h2>Research Summary</h2>
+    <ol>
+      <li><a href="research.html#esi_galactic_wind">Physical Origins of Outflowing Cold Clouds in Local Star-forming Galaxies</a></li>
+      <li><a href="research.html#kcwi_1044_clm_zp">Resolving the Mechanical and Radiative Feedback in an Extreme-Emission-Line Dwarf Galaxy</a></li>
+      <li><a href="research.html#kcwi_1044">Explore the Chemical Inhomogeneities and Evolution of an Extreme-Emission-Line Dwarf Galaxy</a></li>
+    </ol>
+    <h2>Blogs</h2>
+    <ol>
+      <li><a href="blog.html#CC85">Chevalier and Chegg 1985 Galactic Wind Model</a></li>
+      <li><a href="blog.html#Erb08">Erb 2008 Analytical Chemical Evolution Model</a></li>
+    </ol>
+    <h2>Find Me Online</h2>
+    <p>
+        <i class="fas fa-envelope"></i> 
+        <a href="mailto:zixuanpeng@ucsb.edu">zixuanpeng@ucsb.edu</a>
+    </p>
+    <p>
+        <i class="fas fa-graduation-cap"></i> 
+        <a href="https://scholar.google.com/citations?user=8vbGPt0AAAAJ&amp;hl=en">Google Scholar Profile</a>
+    </p>
+    <p>
+        <i class="fab fa-orcid"></i> 
+        <a href="https://orcid.org/0000-0003-3467-6810">ORCID</a>
+    </p>
+    <p>
+        <i class="fab fa-github"></i> 
+        <a href="https://github.com/jasonpeng17">GitHub</a>
+    </p>
+  </div>
+</div>
 
-<p>Please check my <a href="zixuan_cv.html">CV</a> for more details.</p>
-
-<h2 id="research-summary">Research Summary</h2>
-
-<ol>
-  <li><a href="research.html#esi_galactic_wind">Probing the Dynamics and Metal Content of Galactic Winds Through Absorption and Emission Lines</a></li>
-  <li><a href="research.html#kcwi_1044">Using KCWI to Explore the Chemical Inhomogeneities and Evolution of an Extreme-Emission-Line Galaxy</a></li>
-</ol>
-
-<h2 id="ballislife">BallisLife</h2>
-
-<p>From the tender age of ten, my heart has been held captive by the rhythm and pulse of basketball. With the school’s team, I learned to navigate the court, to mold my movements into the ebb and flow of the game. The role of point guard chose me, whispered to me of a chance to orchestrate the game, to transform chaos into harmony. Every bounce of the ball, every swoosh of the net echoed a promise: there’s more to learn, more to achieve. I devoured every piece of wisdom I could find, honing my skills in shooting, passing, defense, and dribbling. Relentless in my pursuit of growth, I challenged those who were stronger, quicker, better. This unyielding spirit was my compass, guiding me towards incremental progress year after year. Basketball was more than a game to me - it was a crucible, a transformative force. It forged my resilience, strengthening both body and spirit. The court became a sanctuary, the game a catalyst for lifelong friendships, relationships woven through shared triumphs, losses, and countless hours of practice. Despite the scars I bear - both my knees bear the toll of ACL surgeries - the love for the game remains unbroken. Each injury was a lesson in humility, a reminder to respect the unforgiving reality of the physical world, and yet to persist, pushing myself to the edge of my potential. The satisfaction in the journey, regardless of the outcome, is a testament to the adage by Romain Rolland: “There is only one heroism in the world: to see the world as it is, and to love it.” For a deeper glimpse into my journey through the world of basketball, please click on the <a href="ballislife.html">link</a>. It’s a tale of passion, perseverance, and the pursuit of excellence. A journey I’m honored to share.</p>
-
-<h2 id="contact-info">Contact Info</h2>
-
-<ul>
-  <li><strong>Email</strong>: <em>zixuanpeng@ucsb.edu</em></li>
-</ul>
-
-<h4 id="background-image-credit-nasa-esa-and-the-hubble-heritage-team-stsciaura-acknowledgment-j-gallagher-university-of-wisconsin-m-mountain-stsci-and-p-puxley-nsf"><em>Background Image Credit: NASA, ESA and the Hubble Heritage Team (STScI/AURA). Acknowledgment: J. Gallagher (University of Wisconsin), M. Mountain (STScI) and P. Puxley (NSF).</em></h4>
-
+<p><em>Background Image Credit: NASA/JPL-Caltech/STScI/CXC/UofA/</em></p>
 
       </div>
     </div>
+    
   </body>
 </html>
+

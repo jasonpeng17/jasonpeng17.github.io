@@ -19,8 +19,8 @@ a:link { color: #FF0000; /* Green */ }
 
 a:visited { color: #00FF00; /* Green */ }
 
-a:hover { color: #FF00FF; /* Magenta */ }
+a:hover { color: #FF0000; /* Green */ }
 
-a:active { color: #0000FF; /* Blue */ }
+a:active { color: #FF0000; /* Green */ }
 
 /*# sourceMappingURL=styles.css.map */

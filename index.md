@@ -9,7 +9,7 @@ title: About
   <!-- Left Column -->
   <div class="left-column">
     <h2>Introduction</h2>
-    <p>Zixuan is a third-year Physics PhD student, with an emphasis in Astrophysics, at the University of California, Santa Barbara (UCSB). Zixuan received his B.S. in Physics with a minor in Astronomy from UCSB in 2021. He is interested in the interface between theoretical and observational work in galaxy formation and evolution. His current research focuses on the dynamics of galactic winds and the chemical evolution of Extreme-Emission-Line Galaxies, which are local analogs of high-redshift galaxies during the Epoch of Reionization.</p>
+    <p>Zixuan is a fourth-year Physics PhD candidate, with an emphasis in Astrophysics, at the University of California, Santa Barbara (UCSB). Zixuan received his B.S. in Physics with a minor in Astronomy from UCSB in 2021. He is interested in the interface between theoretical and observational work in galaxy formation and evolution. His current research focuses on the dynamics of galactic winds and the chemical evolution of Extreme-Emission-Line Galaxies, which are local analogs of high-redshift galaxies during the Epoch of Reionization.</p>
 
     <h2>Education Background</h2>
     <ul>
@@ -35,6 +35,7 @@ title: About
     </ol>
     <h2>Blogs</h2>
     <ol>
+      <li><a href="blog.html#Orr22">Orr 2022 Superbubble Model</a></li>
       <li><a href="blog.html#CC85">Chevalier and Chegg 1985 Galactic Wind Model</a></li>
       <li><a href="blog.html#Erb08">Erb 2008 Analytical Chemical Evolution Model</a></li>
     </ol>

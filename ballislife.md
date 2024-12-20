@@ -26,7 +26,7 @@ Selected photos from my basketball journey (in chronological order):
 
 * 2018 UCSB CSSA 3X3 Basketball Game (semi-final)
 
-![2018-cssa-1](./assets/images/ballislife_photos/2018_3_x_3_basketball.jpg){:height="40%" width="40%"} ![2018-cssa-2](./assets/images/ballislife_photos/2018_3_x_3_basketball_ingame1.jpg){:height="40%" width="40%"} 
+![2018-cssa-1](./assets/images/ballislife_photos/2018_3_x_3_basketball.jpg){:height="35.5%" width="35.5%"} ![2018-cssa-2](./assets/images/ballislife_photos/2018_3_x_3_basketball_ingame1.jpg){:height="40%" width="40%"} 
 ![2018-cssa-3](./assets/images/ballislife_photos/2018_3_x_3_basketball_ingame2.jpg){:height="40%" width="40%"} ![2018-cssa-4](./assets/images/ballislife_photos/2018_3_x_3_basketball_ingame3.jpg){:height="40%" width="40%"} 
 ![2018-cssa-5](./assets/images/ballislife_photos/2018_3_x_3_basketball_ingame4.jpg){:height="40%" width="40%"}
 

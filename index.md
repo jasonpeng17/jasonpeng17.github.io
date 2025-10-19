@@ -3,13 +3,13 @@ layout: default_left_align
 title: About
 ---
 
-<h1>Welcome to Zixuan Peng (彭子轩)'s Personal Website!</h1>
+<h1>Zixuan Peng (彭子轩)'s Personal Website</h1>
 <img src="./assets/images/zixuan_peng_photos/photo_zixuan.jpg" alt="Zixuan Peng's Selfie" style="height:30%; width:40%;">
 <div class="container">
   <!-- Left Column -->
   <div class="left-column">
     <h2>Introduction</h2>
-    <p>Zixuan is a fourth-year Physics PhD candidate, with an emphasis in Astrophysics, at the University of California, Santa Barbara (UCSB). Zixuan received his B.S. in Physics with a minor in Astronomy from UCSB in 2021. He is interested in the interface between theoretical and observational work in galaxy formation and evolution. His current research focuses on the dynamics of galactic winds and the chemical evolution of Extreme-Emission-Line Galaxies, which are local analogs of high-redshift galaxies during the Epoch of Reionization.</p>
+    <p>Zixuan is a fifth-year Physics PhD candidate, with an emphasis in Astrophysics, at the University of California, Santa Barbara (UCSB). Zixuan received his B.S. in Physics with a minor in Astronomy from UCSB in 2021. He is interested in the interface between theoretical and observational work in galaxy formation and evolution. His current research focuses on the dynamics of galactic winds and the chemical evolution of Extreme-Emission-Line Galaxies, which are local analogs of high-redshift galaxies during the Epoch of Reionization.</p>
 
     <h2>Education Background</h2>
     <ul>
@@ -29,6 +29,8 @@ title: About
   <div class="right-column">
     <h2>Research Summary</h2>
     <ol>
+      <li><a href="research.html#winterphase_em_sb">Modeling Emission-Line Surface Brightness in a Multiphase Galactic Wind: An O VI Case Study</a></li>
+      <li><a href="research.html#lbv_in_sbs_0335">When Stars Mimic Monsters: Luminous Blue Variables in SBS 0335-052 E</a></li>
       <li><a href="research.html#esi_galactic_wind">Physical Origins of Outflowing Cold Clouds in Local Star-forming Galaxies</a></li>
       <li><a href="research.html#kcwi_1044_clm_zp">Resolving the Mechanical and Radiative Feedback in an Extreme-Emission-Line Dwarf Galaxy</a></li>
       <li><a href="research.html#kcwi_1044">Explore the Chemical Inhomogeneities and Evolution of an Extreme-Emission-Line Dwarf Galaxy</a></li>

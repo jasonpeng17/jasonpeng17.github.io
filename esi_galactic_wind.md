@@ -9,7 +9,7 @@ We study the physical origins of outflowing cold clouds in a sample of 14 low-re
 <div style="text-align: center">
     <img src="./assets/images/research_figures/esi_outflow/master_plot_broad_vb_scaling_relations.png" height="60%" width="60%" alt="physical_origins_outflows"/>
     <br>
-    <em>Figure 12 in Peng et al. 2024. 
+    <em>Figure 12 in Peng et al. 2025. 
  </em>
 </div>
 
